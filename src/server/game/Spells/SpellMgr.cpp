@@ -4418,11 +4418,6 @@ void SpellMgr::LoadSpellCustomAttr()
             spellInfo->Effect[1] = 0;
             count++;
             break;
-       case 87959: // Drink
-            spellInfo->Category = 59;
-            spellInfo->EffectApplyAuraName[1] = SPELL_AURA_MOD_POWER_REGEN;
-            count++;
-            break;
       case 86150: // Guardian of Ancient Kings
            spellInfo->EffectTriggerSpell[0] = 86698;
            spellInfo->EffectImplicitTargetA[0] = TARGET_UNIT_CASTER;
